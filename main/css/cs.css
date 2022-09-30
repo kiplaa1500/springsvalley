@@ -184,7 +184,7 @@ a:hover {
 .hero {
 	width:100%;
 	min-height:1vh;
-	background: no-repeat fixed url(https://i.imgur.com/Ft4pxAa.jpg) center / cover; /* from Unsplash */
+	background: no-repeat fixed center / cover; /* from Unsplash */
 	margin-top:0px;
 	
 	/* This is what centers it */
