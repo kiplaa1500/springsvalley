@@ -12,7 +12,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="./main/css/bootstrap.css" />
     <link rel="stylesheet" href="./main/js/bootstrap.js" />
-    <link rel="stylesheet" href="./main/style.css" />
+    <link rel="stylesheet" href="./main/css/cs.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
@@ -23,40 +23,32 @@
     <title>Valley Springs</title>
   </head>
   <body>
-    <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg" style="background-color:#a07d1d ;">
-        <div class="container-fluid">
-          <a class="navbar-brand" style="font-size: 30px;color: aliceblue;" href="index.html">Valley Springs</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent" style="font-size: 18px;">
-            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-              <li class="nav-item d-flex">
-                <a class="nav-link active" style=" color: aliceblue;" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" style=" color: aliceblue;" aria-current="page" href="#">Our Staff</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" style=" color: aliceblue;" aria-current="page" href="gallery.html">Gallery </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" style=" color: aliceblue;" aria-current="page" href="about-us.html">About Us </a>
-              </li>
-            </ul>
-          </div>
+    <nav class="navbar navbar-expand-lg" style="background-color: #a07d1d;font-size: 30px; color: aliceblue">
+      <div class="container">
+        <a class="navbar-brand" href="index.html" style="color: white;">Valley Springs</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+     <i class="fas fa-bars"></i>
+    </button>
+  
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto w-100 justify-content-end">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html" style="color: white;">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color: white;">Our staff</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html"style="color: white;">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about-us.html"style="color: white;">About Us</a>
+            </li>
+                  
+          </ul>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
     <div class="container-fluid">
         <div class="text-center"style="font-family: Sofia; font-size: 35px; text-align:center">
         <p>Know More About Us...</p>
@@ -80,14 +72,14 @@ For all your corporate conferences, company lunches, training workshops or execu
 For a place to rest Twiggs hotel offers modern en-suite rooms and welcoming staff that guarantee comfort and hospitality. The hotel is ideally located in a safe and quiet locale near the heart of Bomet town with rooms enjoying stunning views as well as secure on premises parking.
 
 Some of the services we offered includes the following;
-<ul class="" style="text-align:centre; font-size:20px; font-family: Sofia;">
+<div class="service">
   <li>Accomodation.</li>
   <li>Conferences.</li>
   <li>Outside Caterings.</li>
   <li>Wedding Receptions.</li>
   <li>Office Deliveries.</li>
 
-</ul>
+</div>
 
         </p>
        </div>
@@ -103,86 +95,94 @@ Some of the services we offered includes the following;
     <br>
     <br>
     <br>
-
-    <!-- Footer -->
-<div class="container-fluid">
-<footer class="page-footer font-small blue pt-4" style="background-color: #f3f2f0; border-radius: 10px;">
-
-  <!-- Footer Links -->
-  <div class="container-fluid text-center text-md-left">
-
-    <!-- Grid row -->
-    <div class="row">
-      <div class="col-md-1"></div>
-
-      <!-- Grid column -->
-      <div class="col-md-4" >
-
-        <!-- Content -->
-        <h5 class="font-effect-shadow-multiple"style="font-family: Sofia; font-size: 35px;"> <b>Opening Hours...</b> </h5>
-
-      <div style="text-align:centre; font-size:20px; font-family: Trirong;">
-        <p>Monday:       0700hrs-2200hr</p>
-        <p>Tuesday:      0700hrs-2200hr</p>
-        <p>Wednesday:    0700hrs-2200hr</p>
-        <p>Thursday:     0700hrs-2200hr</p>
-        <p>Friday:       0700hrs-2300hr</p>
-        <p>Saturday:     0700hrs-2300hr</p>
-        <p>Sunday:       0700hrs-0000hr</p>
+    <footer class="footer-section">
+      <div class="container">
+          <div class="footer-cta pt-5 pb-5">
+              <div class="row">
+                  <div class="col-xl-4 col-md-4 mb-30">
+                      <div class="single-cta">
+                          <i class="fas fa-map-marker-alt"></i>
+                          <div class="cta-text">
+                              <h4>Find us</h4>
+                              <span>Bomet,Kaplong - Bomet road, Major </span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-md-4 mb-30">
+                      <div class="single-cta">
+                          <i class="fas fa-phone"></i>
+                          <div class="cta-text">
+                              <h4>Call us</h4>
+                              <span>+254750337111</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-md-4 mb-30">
+                      <div class="single-cta">
+                          <i class="far fa-envelope-open"></i>
+                          <div class="cta-text">
+                              <h4>Mail us</h4>
+                              <span>vsguesthouse@gmail.com</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="footer-content pt-5 pb-5">
+              <div class="row">
+                  <div class="col-xl-4 col-lg-4 mb-50">
+                      <div class="footer-widget">
+                          <div class="footer-logo">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3988.9699409196814!2d36.89976961373507!3d-1.181581899138147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ske!4v1663497212412!5m2!1sen!2ske" width="300" height="150" style="border:0px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>           
+                          </div>
+                          
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                      <div class="footer-widget">
+                          <div class="footer-widget-heading">
+                              <h3>Useful Links</h3>
+                          </div>
+                          <ul>
+                              <li><a href="#">Home</a></li>
+                              <li><a href="#">Contact</a></li>
+                              <li><a href="#">Our staff</a></li>
+                              <li><a href="#">About us</a></li>
+                             
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                    <div class="footer-social-icon">
+                      <span>Follow us</span>
+                      <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                      <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                  </div>
+                  </div>
+              </div>
+          </div>
       </div>
-
+      <div class="copyright-area">
+          <div class="container">
+              <div class="row">
+                  <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                      <div class="copyright-text">
+                        <p>Copyright &copy; 2018, All Right Reserved <a>Valley Springs</a></p>                      </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                      <div class="footer-menu">
+                          <ul>
+                              <li><a href="#">Home</a></li>
+                              <li><a href="#">Our staff</a></li>
+                              <li><a href="#">About Us</a></li>
+                              <li><a href="#">Contact</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
       </div>
-      <!-- Grid column -->
+  </footer>
 
-      <div class="col-md-3">
-        <!-- Links -->
-        <div class="text-center">
-          <h5  class="text-center" style="font-family: Sofia; font-size: 35px;"><b> Location</b></h5>
-
-           <ul class="list-unstyled">
-            <li>
-             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3988.9699409196814!2d36.89976961373507!3d-1.181581899138147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ske!4v1663497212412!5m2!1sen!2ske" width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </ul>
-       </div>
-
-      </div>
-      <!-- Grid column -->
-
-
-     <!-- Grid column -->
-      <div class="col-md-4">
-
-        <!-- Links -->
-         <h5 class="text-center" style="font-family: Sofia; font-size: 35px;"><b>Contact Us</b></h5>
-
-          <ul class="centered" style="text-align:centre; font-size:20px; font-family: Trirong;">
-           <li>
-            <P>0715000110</P>
-          </li>
-          <li>
-            <P>0738282174</P>
-          </li>
-
-         </ul>
-      </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
-
-
-    <!-- Grid row -->
-
-  </div>
-  <!-- Footer Links -->
-
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3" style="font-size: 15px;">© 2022 Copyright:
-    <a href="/"> springsValley.com</a>
-  </div>
-  <!-- Copyright -->
-
-</footer>
-</div>
-<!-- Footer -->
   </body>
 </html>
